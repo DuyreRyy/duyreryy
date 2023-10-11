@@ -1,1 +1,451 @@
-<meta http-equiv="REFRESH" content="0; url=https://github.com/DuyreRyy/duyreryy">
+<!--
+
+ ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄       ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄            ▄▄▄▄▄▄▄▄▄▄   ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄                              
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌     ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌          ▐░░░░░░░░░░▌ ▐░░▌      ▐░▌▐░░░░░░░░░░░▌                             
+▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌          ▐░█▀▀▀▀▀▀▀█░▌▐░▌░▌     ▐░▌ ▀▀▀▀█░█▀▀▀▀                              
+▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌     ▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌▐░▌    ▐░▌     ▐░▌                                  
+▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌       ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌ ▐░▌   ▐░▌     ▐░▌                                  
+▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌       ▐░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌  ▐░▌  ▐░▌     ▐░▌                                  
+ ▀▀▀▀█░█▀▀▀▀ ▐░▌       ▐░▌▐░▌       ▐░▌      ▀▀▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌   ▐░▌ ▐░▌     ▐░▌                                  
+     ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌               ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌    ▐░▌▐░▌     ▐░▌                                  
+     ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌      ▄▄▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌     ▐░▐░▌     ▐░▌                                  
+     ▐░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░▌      ▐░░▌     ▐░▌                                  
+      ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀        ▀▀       ▀                                   
+                                                                                                                                                                                 
+ ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄               ▄  ▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄       ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄      
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌             ▐░▌▐░░░░░░░░░░░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌     ▐░░░░░░░░░░░▌▐░░▌      ▐░▌     
+▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌ ▐░▌           ▐░▌ ▐░█▀▀▀▀▀▀▀▀▀      ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌░▌     ▐░▌      ▀▀▀▀█░█▀▀▀▀ ▐░▌░▌     ▐░▌     
+▐░▌       ▐░▌▐░▌       ▐░▌  ▐░▌         ▐░▌  ▐░▌               ▐░▌          ▐░▌       ▐░▌     ▐░▌          ▐░▌     ▐░▌          ▐░▌▐░▌    ▐░▌          ▐░▌     ▐░▌▐░▌    ▐░▌     
+▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌   ▐░▌       ▐░▌   ▐░█▄▄▄▄▄▄▄▄▄      ▐░▌ ▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌     ▐░▌          ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌ ▐░▌   ▐░▌          ▐░▌     ▐░▌ ▐░▌   ▐░▌     
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌    ▐░▌     ▐░▌    ▐░░░░░░░░░░░▌     ▐░▌▐░░░░░░░░▌▐░▌       ▐░▌     ▐░▌          ▐░▌     ▐░░░░░░░░░░░▌▐░▌  ▐░▌  ▐░▌          ▐░▌     ▐░▌  ▐░▌  ▐░▌     
+▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌     ▐░▌   ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀      ▐░▌ ▀▀▀▀▀▀█░▌▐░▌       ▐░▌     ▐░▌          ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌   ▐░▌ ▐░▌          ▐░▌     ▐░▌   ▐░▌ ▐░▌     
+▐░▌       ▐░▌▐░▌       ▐░▌      ▐░▌ ▐░▌      ▐░▌               ▐░▌       ▐░▌▐░▌       ▐░▌     ▐░▌          ▐░▌     ▐░▌          ▐░▌    ▐░▌▐░▌          ▐░▌     ▐░▌    ▐░▌▐░▌     
+▐░▌       ▐░▌▐░▌       ▐░▌       ▐░▐░▌       ▐░█▄▄▄▄▄▄▄▄▄      ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌     ▐░▌          ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌     ▐░▐░▌      ▄▄▄▄█░█▄▄▄▄ ▐░▌     ▐░▐░▌     
+▐░▌       ▐░▌▐░▌       ▐░▌        ▐░▌        ▐░░░░░░░░░░░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌          ▐░▌     ▐░░░░░░░░░░░▌▐░▌      ▐░░▌     ▐░░░░░░░░░░░▌▐░▌      ▐░░▌     
+ ▀         ▀  ▀         ▀          ▀          ▀▀▀▀▀▀▀▀▀▀▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀            ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀      
+                                                                                                                                                                                 
+ ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄                                                                                                                           
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌                                                                                                                          
+▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌                                                                                                                          
+▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌                                                                                                                          
+▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌                                                                                                                          
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌                                                                                                                          
+▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀█░█▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌                                                                                                                          
+▐░▌       ▐░▌▐░▌          ▐░▌     ▐░▌  ▐░▌           ▀                                                                                                                           
+▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌      ▐░▌ ▐░█▄▄▄▄▄▄▄▄▄  ▄                                                                                                                           
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌                                                                                                                          
+ ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀                                                                                                                           
+
+
+You shouldn't have gotten in here!                                                                                                                                                                              
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duyre.ryy | A Multipurpose Discord Bot</title>
+    <meta name="description" content="A Multipurpose Discord bot">
+    <link rel="icon" href="img/Duyre.ryy.png" type="image/x-icon">
+
+    
+
+
+
+    <!-- Stylesheet file's -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Javascript file's -->
+    <script src="js/style.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.esm.min.js" integrity="sha384-Eg5XYZrb+x0FMnsSAcaUNc6vJ/6B47jQvyhan3IGKcCfko9Hq6vS3s1PviSpNbdE" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  
+<body>
+  <div style="line-height: 1;">
+  <script>
+      AOS.init();
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+  </script>
+<!-- Navbar -->
+ <nav id="home" style="background: #26272b; color: #fff;" class="navbar navbar-expand-lg navbar-dark">
+    <img class="duyreryy" src="./img/Duyre.ryy.png" alt="Duyre.ryy">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home"><i class="fad fa-home"></i> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li  class="nav-item">
+        </li>
+                <li class="nav-item activee">
+          <a class="nav-link" href="https://discord.gg/rUfPr8bs57"><i class="fab fa-discord"></i> Support Server</a>
+        </li>
+                <li class="nav-item activee">
+          <a class="nav-link" href="https://discord.com/api/oauth2/authorize?client_id=1108679074655764542&permissions=8&scope=bot"><i class="fad fa-user-plus"></i> Add to server</a>
+        </li>
+                        <li class="nav-item activee">
+          <a class="nav-link" href="https://top.gg/bot/1108679074655764542/vote"><i class="fad fa-plus"></i> Vote</a>
+        </li>
+                        <li class="nav-item activee">
+          <a class="nav-link" href="https://duyreryy.systemryy.repl.co/status"><i class="fad fa-discord"></i> Status</a>
+        </li>
+        <li class="nav-item activee">
+          <a class="nav-link" href="commands/"><i class=""></i> Commands</a>
+        </li>
+        <li class="nav-item activee">
+          <a class="nav-link" href="mailto:duyreryycontact@gmail.com"><i class="fad fa-discord"></i> Contact</a>
+        </li>
+        <li class="nav-item activee">
+          <a class="nav-link" href="developer_team/"><i class="fad fa-discord"></i> Developers</a>
+        </li>
+        <li class="nav-item activee">
+          <a class="nav-link" href="https://duyreryy.systemryy.repl.co/blog"><i class="fad fa-discord"></i> Blog</a>
+        </li>
+        <li class="nav-item activee">
+          <a class="nav-link" href="https://duyreryy.systemryy.repl.co/docs.html"><i class="fad fa-discord"></i> Documentation</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+<!-- Navbar -->
+  
+<!-- Header -->
+
+<div class="Header">
+  <div class="Header-background"></div>
+  <div class="Header-content">
+    <div class="Header-hero">
+      <h1>Duyre.ryy</h1>
+      <p>A Multipurpose Discord Bot</p>
+      <button onclick="location.href = 'https://discord.com/api/oauth2/authorize?client_id=1108679074655764542&permissions=8&scope=bot';" class="Button">Add to server</button>
+
+    </div>
+
+
+				</div>
+			</div>
+			</div>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>    </div>
+  </div>
+</div>
+  </div>  
+</div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#26272b" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,165.3C384,139,480,85,576,85.3C672,85,768,139,864,170.7C960,203,1056,213,1152,208C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<!-- Header -->
+
+<center><h1><a href="comments/">Comments [FACEBOOK LOGIN REQUIRED]</a></h1></center>
+
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- Footer -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#26272b" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,149.3C384,149,480,107,576,96C672,85,768,107,864,112C960,117,1056,107,1152,90.7C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <footer class="footer-bs">
+        <div class="row">
+          <div data-aos="fade-left" class="col-md-3 footer-brand animated fadeInLeft">
+              <h2>Duyre.ryy</h2>
+                <p>Greetings, I'm the developer of Duyre.ryy (Duluper). 18 May, Duyre.ryy was fully completed and ready for use. The Duyre.ryy is a multipurpose Discord Bot that is on its way to growth by adding to the bot list platforms.</p>
+            </div>
+          <div data-aos="fade-up" class="col-md-4 footer-nav">
+              <h4>Menu —</h4>
+              <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="#home"><i class="fad fa-home"></i> Home</a></li>
+                      <li><a href="status"><i class="fad fa-"></i> Status</a></li>
+                    </ul>
+                </div>
+            </div>
+          <div data-aos="fade-up" class="col-md-5 footer-nav">
+              <h4>External —</h4>
+              <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="https://discord.com/oauth2/authorize?client_id=1108679074655764542&permissions=8&scope=bot"><i class=""></i> Invite bot</a></li>
+                      <li><a href="https://discord.com/invite/rUfPr8bs57"><i class="fad fa-"></i> Support Server</a></li>
+                      <li><a href="https://www.freshworks.com/website-monitoring/"><i class="fad fa-"></i> Hosting</a></li>
+                      <li><a href="/owner"><i class="fad fa-"></i> Owner</a></li>
+                      <li><a  href="#myModal" class="trigger-btn" data-toggle="modal"><i class=""></i> Unefined Modal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+                      <center><div data-aos="fade-up" class="col-md-6 footer-nav">
+              <h4>Legal —</h4>
+              <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="/terms-of-service.html"><i class="fab fa-discord"></i> Terms Of Service</a></li>
+                      <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="/privacy-policy.html"><i class="fab fa-discord"></i> Privacy Policy</a></li>
+                       <!-- <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="/imprint/"><i class="fab fa-"></i> Imprint</a></li>
+                      
+                        <!-- <li><a href="/tos"><i class="fal fa-siren-on"></i> Terms Of Service</a></li> -->
+                    </ul>
+                </div>
+            </div></center>
+
+        </div>
+        <hr>
+        <div class="footer-copyright">
+          <br>
+       <p><i class="fad fa-help-alt"></i> 2023 Duyre.ryy &copy All rights reserved.</p>
+     </div>
+    </footer>
+<!-- Footer -->
+
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog modal-confirm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="icon-box">
+          <i class="material-icons">&#xE86B;</i>
+          <i class="material-icons">&#xE86B;</i>
+          <i class="material-icons">&#xE645;</i>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Error</h4> 
+        <p>Sorry, this modal is being experimented on by <b>duluper#0</b></p>
+        <button class="btn btn-primary" data-dismiss="modal"><i class="fad fa-arrow-back"></i> Go Back</button>
+      </div>
+    </div>
+  </div>
+</div>     
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
